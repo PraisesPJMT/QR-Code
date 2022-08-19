@@ -1,0 +1,65 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 1.3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 0.6em auto;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin: 1em auto;
+}
+
+/* App Styles */
+
+body {
+  background: hsl(0, 0%, 100%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(220, 15%, 55%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.code-container {
+  background: hsl(0, 0%, 100%);
+  padding: 1em;
+  border-radius: 1em;
+  width: 80%;
+  max-width: 250px;
+}
+
+img {
+  border-radius: 1em;
+  width: 100%;
+}
+
+.attribution p {
+  font-size: 11px;
+  text-align: center;
+  margin: 0.3em auto;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
